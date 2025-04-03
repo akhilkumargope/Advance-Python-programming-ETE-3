@@ -43,7 +43,7 @@ st.title("The Generated Dataset ")
 df
 
 # Sidebar Filters
-st.sidebar.title("Visualize the Event here")
+st.sidebar.title("Visualize the Event here & See the Participation Statistics")
 selected_event = st.sidebar.selectbox("Select Event", ["All"] + df["Event"].unique().tolist())
 selected_college = st.sidebar.selectbox("Select College", ["All"] + df["College"].unique().tolist())
 selected_state = st.sidebar.selectbox("Select State", ["All"] + df["State"].unique().tolist())
